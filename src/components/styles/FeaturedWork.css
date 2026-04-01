@@ -5,12 +5,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 100px 5%;
+  padding: 150px 5%;
   position: relative;
   overflow: hidden;
   z-index: 10;
   color: #ffffff;
+  gap: 150px; /* Spacing between multiple featured work items */
+}
+
+.featured-work-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
 }
 
 .featured-work-section::before {
